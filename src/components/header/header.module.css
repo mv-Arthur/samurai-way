@@ -1,0 +1,75 @@
+.logoWrapper .image {
+	width: 37px;
+	height: 35px;
+}
+
+.logoWrapper .name {
+	color: rgb(7, 20, 46);
+	font-size: 28px;
+}
+
+.logoWrapper {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	padding: 15px 32px;
+	padding-right: 82px;
+	border-bottom: 1px solid rgb(241, 241, 241);
+	background-color: #ffffff;
+}
+
+.functional .navbar {
+	display: flex;
+	align-items: center;
+	gap: 41px;
+}
+
+.functional .navbar .navItem {
+	color: rgb(111, 127, 146);
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+}
+.functional .control .controlItem {
+	background: transparent;
+	border: none;
+}
+.functional .control .controlItem .controlItemIco {
+	width: 22px;
+	height: 23px;
+}
+
+.functional .control {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.functional .input {
+	width: 350px;
+	height: 40px;
+	padding: 0 16px 0 40px;
+	background-color: rgb(248, 249, 250);
+	border: 1px solid rgb(241, 241, 241);
+}
+
+.functional {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.header {
+	background-color: #fdfdfd;
+	display: flex;
+	justify-content: space-between;
+	height: 66px;
+}

@@ -1,0 +1,68 @@
+.news {
+	display: grid;
+	grid-template-areas:
+		"s s"
+		"p r";
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 270px;
+	padding: 40px 50px 0 50px;
+}
+
+.stories {
+	grid-area: s;
+	display: flex;
+	gap: 40px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.story {
+	width: 160px;
+	height: 185px;
+}
+
+.posts {
+	grid-area: p;
+}
+
+.rightBar {
+	grid-area: r;
+}
+
+.storyDescr {
+	text-align: center;
+}
+
+.storyWrap {
+	width: 160px;
+	height: 185px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.storyWrap .mainImg {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 0 0;
+	border-radius: 7px;
+}
+
+.ico {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	transform: translate(50%, 50%);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 7px;
+}
+
+.icoImg {
+	width: 90%;
+	height: 90%;
+	border-radius: 7px;
+}
