@@ -1,127 +1,107 @@
 .sideBar {
-	background-color: #ffff;
-	height: 100vh;
-	position: relative;
+     background-color: #ffff;
+     height: 100vh;
+     position: relative;
 }
 
 .scrolled {
-	padding: 24px 35px 200px 35px;
-	height: 80vh;
-	overflow-y: scroll;
+     border-top: 1px solid rgb(241, 241, 241);
+     padding: 24px 35px 200px 35px;
+     height: 80vh;
+     overflow-y: scroll;
 }
 
 .scrolled::-webkit-scrollbar {
-	width: 0;
+     width: 0;
 }
 
-.logoWrapper .image {
-	width: 37px;
-	height: 35px;
-}
-
-.logoWrapper .name {
-	color: rgb(7, 20, 46);
-	font-size: 28px;
-}
-
-.logoWrapper {
-	display: flex;
-	gap: 10px;
-	align-items: center;
-	padding-top: 15px;
-	padding-left: 33px;
-	padding-bottom: 15px;
-
-	border-bottom: 1px solid rgb(241, 241, 241);
-	background-color: #ffffff;
-}
 .authUser {
-	display: flex;
-	gap: 20px;
-	align-items: center;
-	padding-bottom: 24px;
-	border-bottom: 1px solid #f1f1f1;
+     display: flex;
+     gap: 20px;
+     align-items: center;
+     padding-bottom: 24px;
+     border-bottom: 1px solid #f1f1f1;
 }
 
 .avatar {
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
 }
 
 .authData {
-	text-decoration: none;
+     text-decoration: none;
 }
 
 .authData .name {
-	font-size: 16px;
-	font-weight: 600;
-	cursor: pointer;
-	color: #000;
+     font-size: 16px;
+     font-weight: 600;
+     cursor: pointer;
+     color: #000;
 }
 
 .authData .tag {
-	color: #6f7f92;
-	font-size: 12px;
-	font-weight: 500;
+     color: #6f7f92;
+     font-size: 12px;
+     font-weight: 500;
 }
 
 .navGroup {
-	padding-top: 24px;
-	padding-bottom: 24px;
-	border-bottom: 1px solid #f1f1f1;
+     padding-top: 24px;
+     padding-bottom: 24px;
+     border-bottom: 1px solid #f1f1f1;
 }
 
 .navGroup:last-child {
-	border-bottom: none;
+     border-bottom: none;
 }
 
 .navGroupName {
-	margin-bottom: 9px;
-	color: rgb(111, 127, 146);
-	font-weight: 600;
-	font-size: 14px;
+     margin-bottom: 9px;
+     color: rgb(111, 127, 146);
+     font-weight: 600;
+     font-size: 14px;
 }
 
 .navItem {
-	display: flex;
-	gap: 10px;
-	padding: 9px 14px 9px 14px;
-	border-radius: 6px;
-	align-items: center;
-	text-decoration: none;
+     display: flex;
+     gap: 10px;
+     padding: 9px 14px 9px 14px;
+     border-radius: 6px;
+     align-items: center;
+     text-decoration: none;
 }
 
 .navItemText {
-	font-size: 14px;
-	font-weight: 600;
-	color: rgb(111, 127, 146);
+     font-size: 14px;
+     font-weight: 600;
+     color: rgb(111, 127, 146);
 }
 .navItem.active {
-	background-color: rgb(47, 101, 185);
+     background-color: rgb(47, 101, 185);
 }
 
 .navItem.active .navItemText {
-	color: #fff;
+     color: #fff;
 }
 
 .bottomTools {
-	width: 80%;
-	height: 50px;
-	padding: 16px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-radius: 6px;
-	position: absolute;
-	bottom: 10px;
-	right: 10%;
-	left: 10%;
-	background-color: rgb(248, 249, 250);
+     width: 80%;
+     height: 50px;
+     padding: 16px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 6px;
+     position: absolute;
+     bottom: 10px;
+     right: 10%;
+     left: 10%;
+     background-color: rgb(248, 249, 250);
 }
 
 .toolItem {
-	border: none;
-	background: transparent;
-	cursor: pointer;
+     border: none;
+     background: transparent;
+     cursor: pointer;
 }

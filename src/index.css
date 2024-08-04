@@ -9,6 +9,10 @@
 	font-family: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", sans-serif, "Segoe UI";
 }
 
+textarea {
+	resize: none;
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

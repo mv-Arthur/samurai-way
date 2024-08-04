@@ -1,0 +1,31 @@
+.logoWrapper .imageLarge {
+     width: 37px;
+     height: 35px;
+}
+
+.logoWrapper .imageMedium {
+     width: 30px;
+     height: 27px;
+}
+
+.logoWrapper h2 {
+     color: rgb(7, 20, 46);
+     font-weight: 600;
+     text-transform: none;
+}
+
+.logoWrapper .nameLarge {
+     font-size: 28px;
+}
+
+.logoWrapper .nameMedium {
+     font-size: 23px;
+}
+
+.logoWrapper {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     background-color: #ffffff;
+     cursor: pointer;
+}
